@@ -1,10 +1,18 @@
 <script>
-  import FirstLineChart from "./charts/FirstLineChart.svelte";
-  import FirstScatterPlot from "./charts/FirstScatterPlot.svelte";
+  import ChartSelector from "./components/ChartSelector.svelte";
 </script>
 
 <div>
   <h1>Svelte D3 Charts</h1>
-  <!-- <FirstLineChart /> -->
-  <FirstScatterPlot />
+  <ChartSelector />
 </div>
+
+<style>
+  div {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+</style>

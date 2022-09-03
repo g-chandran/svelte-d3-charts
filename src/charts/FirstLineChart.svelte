@@ -82,5 +82,4 @@
   onMount(drawLineChart);
 </script>
 
-<h2>First Chart</h2>
 <div id="wrapper" />

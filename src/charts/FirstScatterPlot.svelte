@@ -7,7 +7,6 @@
     min,
     scaleLinear,
     select,
-    selectAll,
   } from "d3";
   import { onMount } from "svelte";
 
@@ -107,5 +106,4 @@
   onMount(drawChart);
 </script>
 
-<h2>First ScatterPlot</h2>
 <div id="wrapper" />
